@@ -14,6 +14,11 @@
     border: none;
 }
 
+.offcanvas-title {
+
+    font-size: 45px;
+}
+
 .navbar-toggler-icon {
     background-color: #0b2545;
     background-image: linear-gradient(#8da9c4, #8da9c4), linear-gradient(#8da9c4, #8da9c4), linear-gradient(#8da9c4, #8da9c4);

@@ -17,25 +17,22 @@ export default function Portfolio() {
         <Project
           projectName="Project C"
           backgroundImage={projectC}
-          technologies="JavaScript, HTML, CSS"
+          technologies="JavaScript"
           repoLink='https://github.com/bryceberczik/project-c'
-          pageLink="https://bryceberczik.github.io/project-c/"
         />
 
         <Project
           projectName="Login Mockup"
           backgroundImage={loginMockup}
-          technologies="JavaScript, HTML, CSS"
+          technologies="JavaScript"
           repoLink='https://github.com/bryceberczik/login-mockup'
-          pageLink='https://bryceberczik.github.io/login-mockup/'
         />
 
         <Project
           projectName="Wishboard"
           backgroundImage={wishboard}
-          technologies="JavaScript, HTML, CSS"
+          technologies="JavaScript"
           repoLink='https://github.com/bryceberczik/wishlist-board'
-          pageLink='https://bryceberczik.github.io/wishlist-board/'
         />
 
         <Project

@@ -5,11 +5,9 @@ export default function Project({
   projectName,
   repoLink,
   backgroundImage,
-  technologies,
-  pageLink
+  technologies
 }) {
   return (
-    <a href={pageLink} target="_blank" rel="noopener noreferrer" className="projectLink">
       <div
       className="project"
       style={{ backgroundImage: `url(${backgroundImage})` }}
@@ -26,7 +24,6 @@ export default function Project({
         <p>{technologies}</p>
       </div>
     </div>
-    </a>
     
   );
 }
