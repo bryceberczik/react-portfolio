@@ -1,0 +1,73 @@
+.resume-container {
+    padding: 20px;
+    margin: 70px auto;
+    border: 2px solid #13315c;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 50%;
+}
+
+.resume-container div ul li {
+
+    display: block;
+    text-decoration: underline;
+    font-size: 25px;
+    margin: 20px 0 20px 30px;
+    color: #0b2545;
+
+}
+
+.resume-container h2 {
+
+    font-size: 35px;
+    margin: 20px 0 20px 30px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #134074;
+}
+
+.resume-container h1 {
+
+    margin-left: 30px;
+}
+
+#download-pdf {
+
+color: inherit;
+}
+
+@media (max-width: 768px) {
+
+    .resume-container {
+
+        max-width: 90%;
+    }
+
+    .resume-container h2 {
+
+        margin-left: 5px;
+        font-size: 28px;
+    }
+
+    .resume-container div ul li {
+        
+        margin-left: 5px;
+        font-size: 25px;
+    }
+
+    .resume-container h1 {
+
+        text-align: center;
+        font-size: 40px;
+        margin-left: 0;
+
+    }
+
+    .resume-container .mobile {
+
+        font-size: 20px;
+        text-align: center;
+    }
+}

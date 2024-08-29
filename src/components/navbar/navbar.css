@@ -1,0 +1,75 @@
+ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+li {
+  margin: 0 25px 0 25px;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  color: #8da9c4;
+}
+
+@keyframes lineAnimation {
+  0% {
+    width: 0;
+    border-width: 0 0 2px 0;
+  }
+  50% {
+    width: 50%;
+    border-width: 0 0 2px 0;
+  }
+  100% {
+    width: 100%;
+    border-width: 0 0 2px 0;
+  }
+}
+
+.activeNav {
+  text-decoration: none;
+  font-weight: 500;
+  color: #6a839e;
+  padding: 5px 10px;
+  border: none;
+  position: relative;
+}
+
+.activeNav::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #8da9c4;
+  transition: width 0.5s ease, left 0.5s ease;
+}
+
+.activeNav:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.restNav {
+  text-decoration: none;
+  color: inherit;
+  padding: 5px 10px;
+  border: none;
+  position: relative;
+}
+
+.restNav::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #8da9c4;
+  transition: width 0.5s ease, left 0.5s ease;
+}
+
+.restNav:hover::after {
+  width: 100%;
+  left: 0;
+}
