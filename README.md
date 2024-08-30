@@ -24,6 +24,8 @@ To view my portfolio, visit the URL. Explore the projects, learn about my backgr
 <img src="./src/assets/images/contact page.png" alt="contact page" width="400">
 <img src="./src/assets/images/resume page.png" alt="resume page" width="400">
 
+https://github.com/user-attachments/assets/d9a154c7-163a-41a0-b51e-e92888a620d3
+
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
