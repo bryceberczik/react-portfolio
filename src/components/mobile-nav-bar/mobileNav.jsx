@@ -3,7 +3,6 @@ import "./mobileNav.css";
 import { Link, useLocation } from "react-router-dom";
 
 export default function MobileNavbar() {
-
   const handleLinkClick = (event) => {
     event.preventDefault();
     const target = event.currentTarget;

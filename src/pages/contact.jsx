@@ -36,7 +36,9 @@ export default function Contact() {
       } else if (newErrors.length === 2) {
         errorMessage += `${newErrors[0]} and ${newErrors[1]}.`;
       } else {
-        errorMessage += `${newErrors.slice(0, -1).join(", ")}, and ${newErrors[newErrors.length - 1]}.`;
+        errorMessage += `${newErrors.slice(0, -1).join(", ")}, and ${
+          newErrors[newErrors.length - 1]
+        }.`;
       }
       setError(errorMessage);
       return false;
@@ -77,15 +79,17 @@ export default function Contact() {
         <input type="text" id="email" placeholder="EX. johndoe@email.com" />
 
         <label htmlFor="message">Message:</label>
-        <textarea id="message" placeholder="Enter your message here... "></textarea>
+        <textarea
+          id="message"
+          placeholder="Enter your message here... "
+        ></textarea>
 
         <div className="mobile">
           <button type="submit">Submit</button>
-        
 
-        <span id="err" className="error-message">
-          {error}
-        </span>
+          <span id="err" className="error-message">
+            {error}
+          </span>
         </div>
       </form>
     </div>

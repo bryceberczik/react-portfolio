@@ -21,7 +21,11 @@ export default function Project({
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesomeIcon className="fontIcon" icon={faShare} style={{ color: "#0b2545", fontSize: '24px' }} />
+        <FontAwesomeIcon
+          className="fontIcon"
+          icon={faShare}
+          style={{ color: "#0b2545", fontSize: "24px" }}
+        />
       </a>
       <div className="projectInfo">
         <div className="githubInfo">
