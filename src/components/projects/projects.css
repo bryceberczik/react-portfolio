@@ -82,6 +82,19 @@
 
 }
 
+.appIcon {
+
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease, color 0.3s ease;
+}
+
+.fontIcon:hover {
+  opacity: 0.6;
+}
+
 .project p {
 
   z-index: 2;
@@ -96,7 +109,8 @@
 }
 
 .project:hover h3,
-.project:hover p {
+.project:hover p,
+.project:hover .appIcon {
   opacity: 1;
 }
 

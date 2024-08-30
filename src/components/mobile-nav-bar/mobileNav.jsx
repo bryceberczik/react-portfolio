@@ -3,6 +3,13 @@ import "./mobileNav.css";
 import { Link, useLocation } from "react-router-dom";
 
 export default function MobileNavbar() {
+
+  const handleLinkClick = (event) => {
+    event.preventDefault();
+    const target = event.currentTarget;
+    window.location.href = target.href;
+  };
+
   const currentPage = useLocation().pathname;
   return (
     <div>
@@ -43,6 +50,7 @@ export default function MobileNavbar() {
               <li>
                 <Link
                   to="/aboutme"
+                  onClick={handleLinkClick}
                   className={
                     currentPage === "/aboutme"
                       ? "activeMobileNav"
@@ -55,6 +63,7 @@ export default function MobileNavbar() {
               <li>
                 <Link
                   to="/portfolio"
+                  onClick={handleLinkClick}
                   className={
                     currentPage === "/portfolio"
                       ? "activeMobileNav"
@@ -67,6 +76,7 @@ export default function MobileNavbar() {
               <li>
                 <Link
                   to="/contact"
+                  onClick={handleLinkClick}
                   className={
                     currentPage === "/contact"
                       ? "activeMobileNav"
@@ -79,6 +89,7 @@ export default function MobileNavbar() {
               <li>
                 <Link
                   to="/resume"
+                  onClick={handleLinkClick}
                   className={
                     currentPage === "/resume"
                       ? "activeMobileNav"

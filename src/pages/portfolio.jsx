@@ -19,6 +19,7 @@ export default function Portfolio() {
           backgroundImage={projectC}
           technologies="JavaScript"
           repoLink='https://github.com/bryceberczik/project-c'
+          shareLink='https://bryceberczik.github.io/project-c/'
         />
 
         <Project
@@ -26,6 +27,7 @@ export default function Portfolio() {
           backgroundImage={loginMockup}
           technologies="JavaScript"
           repoLink='https://github.com/bryceberczik/login-mockup'
+          shareLink='https://bryceberczik.github.io/login-mockup/'
         />
 
         <Project
@@ -33,6 +35,7 @@ export default function Portfolio() {
           backgroundImage={wishboard}
           technologies="JavaScript"
           repoLink='https://github.com/bryceberczik/wishlist-board'
+          shareLink='https://bryceberczik.github.io/wishlist-board/'
         />
 
         <Project
@@ -40,18 +43,21 @@ export default function Portfolio() {
           backgroundImage={vehicleBuilder}
           technologies="TypeScript"
           repoLink='https://github.com/bryceberczik/vehicle-builder'
+          shareLink='https://github.com/bryceberczik/vehicle-builder'
         />
         <Project
           projectName="Employee Tracker"
           backgroundImage={employeeTracker}
           technologies="TypeScript, SQL"
           repoLink='https://github.com/bryceberczik/employee-tracker'
+          shareLink='https://github.com/bryceberczik/employee-tracker'
         />
         <Project
           projectName="README Generator"
           backgroundImage={readmeGen}
           technologies="JavaScript"
           repoLink='https://github.com/bryceberczik/readme-generator'
+          shareLink='https://github.com/bryceberczik/readme-generator'
         />
       </div>
     </div>
