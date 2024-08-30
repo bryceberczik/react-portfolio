@@ -1,5 +1,4 @@
 .projectLink {
-
   text-decoration: none;
 }
 
@@ -24,7 +23,6 @@
 }
 
 .projectInfo {
- 
   position: absolute;
   left: 10px;
   bottom: 0;
@@ -49,11 +47,9 @@
   border-radius: 20px;
   opacity: 0;
   transition: opacity 0.3s ease;
-  
 }
 
 .project:hover .projectInfo {
-
   opacity: 1;
 }
 
@@ -67,23 +63,19 @@
 }
 
 .githubInfo img {
-
   width: 35px;
   height: 35px;
 }
 
 .project h3 {
-
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 30px;
   margin-right: 10px;
   z-index: 2;
-
 }
 
 .appIcon {
-
   position: absolute;
   top: 20px;
   left: 20px;
@@ -96,15 +88,14 @@
 }
 
 .project p {
-
   z-index: 2;
   color: #13315c;
   margin-top: 0px;
   margin-left: -43px;
 }
 
-.project p, .project h3 {
-
+.project p,
+.project h3 {
   opacity: 0;
 }
 
@@ -115,7 +106,6 @@
 }
 
 .project a:hover {
-
   opacity: 0.7;
   transition: opacity 0.3s ease;
 }
@@ -126,5 +116,4 @@
     width: 350px;
     margin: 50px 0 50px 0;
   }
-  
 }

@@ -1,88 +1,82 @@
 .contact-container {
-    padding: 20px;
-    margin: 70px auto;
-    border: 2px solid #13315c;
-    border-radius: 15px;
-    background-color: #f0f0f0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 40%;
+  padding: 20px;
+  margin: 70px auto;
+  border: 2px solid #13315c;
+  border-radius: 15px;
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 40%;
 }
 
 .contact-container label {
-    display: block;
-    margin-bottom: 8px;
-    font-family: 'Poppins', sans-serif;
-    color: #13315c;
+  display: block;
+  margin-bottom: 8px;
+  font-family: "Poppins", sans-serif;
+  color: #13315c;
 }
 
 .contact-container input,
 .contact-container textarea {
-    width: 100%;
-    max-width: 800px;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 17px;
-    font-family: 'Poppins', sans-serif;
+  width: 100%;
+  max-width: 800px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
 }
 
 .contact-container textarea {
-    height: 100px;
-    resize: vertical;
+  height: 100px;
+  resize: vertical;
 }
 
 .contact-container button {
-    padding: 13px 23px;
-    border: none;
-    border-radius: 5px;
-    background-color: #13315c;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+  padding: 13px 23px;
+  border: none;
+  border-radius: 5px;
+  background-color: #13315c;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
 }
 
 .contact-container button:hover {
-    background-color: #0f2747;
+  background-color: #0f2747;
 }
 
 #err {
-
-    color: red;
-    font-family: 'Poppins', sans-serif;
-    margin-left: 30px;
+  color: red;
+  font-family: "Poppins", sans-serif;
+  margin-left: 30px;
 }
 
 @media (max-width: 768px) {
+  .contact-container {
+    max-width: 90%;
+  }
 
-    .contact-container {
+  .contact-container h1 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
 
-        max-width: 90%;
-    }
+  #err {
+    font-size: 15px;
+    margin-left: 0;
+  }
 
-    .contact-container h1 {
+  .contact-container .mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-        text-align: center;
-        margin-bottom: 15px;
-    }
-
-    #err {
-
-        font-size: 15px;
-        margin-left: 0;
-    }
-
-    .contact-container .mobile {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .contact-container .mobile span {
-        order: -1;
-        margin-bottom: 10px;
-    }
-
+  .contact-container .mobile span {
+    order: -1;
+    margin-bottom: 10px;
+  }
 }

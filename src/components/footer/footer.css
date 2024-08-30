@@ -1,17 +1,17 @@
 footer img {
-    width: 60px;
-    height: 60px;
-    margin: 20px;
-    margin-top: 0px;
-    transition: transform 0.3s ease;
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+  margin-top: 0px;
+  transition: transform 0.3s ease;
 }
 
 footer img:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
